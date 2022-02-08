@@ -1,0 +1,66 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"AVR128DB48"</DEVICE>
+ <WORKING_DIR>F:\temp_meas\temp_meas\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\AVR-Dx_DFP\1.6.76\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\temp_meas\temp_meas\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\AVR-Dx_DFP\1.6.76\avrasm\inc\AVR128DB48def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\temp_meas\temp_meas\Debug\temp_meas.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>temp_meas.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>temp_meas.map</FILE>
+  <FILE>temp_meas.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <led_display><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>22</LINE></led_display>
+  <bcd_entries><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>23</LINE></bcd_entries>
+  <digit_num><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>24</LINE></digit_num>
+  <start><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>35</LINE></start>
+  <toggle_pin_ISR><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>260</LINE></toggle_pin_ISR>
+  <ADC_convert><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>377</LINE></ADC_convert>
+  <pullups><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>42</LINE></pullups>
+  <start1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>49</LINE></start1>
+  <post_display><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>301</LINE></post_display>
+  <main><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>92</LINE></main>
+  <multiplex_display><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>127</LINE></multiplex_display>
+  <display0><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>147</LINE></display0>
+  <display1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>158</LINE></display1>
+  <display2><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>168</LINE></display2>
+  <display3><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>179</LINE></display3>
+  <return1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>190</LINE></return1>
+  <hex_to_7seg><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>220</LINE></hex_to_7seg>
+  <hextable><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>236</LINE></hextable>
+  <mux_digit_delay><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>338</LINE></mux_digit_delay>
+  <outer_loop1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>340</LINE></outer_loop1>
+  <outer_loop><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>342</LINE></outer_loop>
+  <inner_loop><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>344</LINE></inner_loop>
+  <mpy16u><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>623</LINE></mpy16u>
+  <loop><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>391</LINE></loop>
+  <loop1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>393</LINE></loop1>
+  <bin2BCD16><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>534</LINE></bin2BCD16>
+  <lower500><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>452</LINE></lower500>
+  <greater500><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>407</LINE></greater500>
+  <BCDsub><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>662</LINE></BCDsub>
+  <tBCD0><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>517</LINE></tBCD0>
+  <tBCD1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>518</LINE></tBCD1>
+  <tBCD2><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>519</LINE></tBCD2>
+  <bBCDx_1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>546</LINE></bBCDx_1>
+  <bBCDx_2><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>570</LINE></bBCDx_2>
+  <bBCDx_3><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>574</LINE></bBCDx_3>
+  <m16u_1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>629</LINE></m16u_1>
+  <noad8><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>632</LINE></noad8>
+  <sub_0><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>667</LINE></sub_0>
+  <sub_1><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>669</LINE></sub_1>
+  <sub_2><FILE>F:\temp_meas\temp_meas\main.asm</FILE><LINE>675</LINE></sub_2>
+ </LABELS>
+</ASSEMBLER_INFO>
